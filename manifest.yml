@@ -1,5 +1,6 @@
 ---
 applications:
  - name: kodemia-cloudapp
-   random-route: false
-   memory: 256M
+   random-route: true
+   memory: 128M
+

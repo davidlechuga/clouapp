@@ -10,15 +10,15 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 let mydb, cloudant;
-var vendor; // Because the MongoDB and Cloudant use different API commands, we
-            // have to check which command should be used based on the database
+var vendor; // Cloudant use an specific API commands, so we have to ensure
+            // wich command should be used based on the database
             // vendor.
 var dbName = 'mydb';
 
 // Separate functions are provided for inserting/retrieving content from
-// MongoDB and Cloudant databases. These functions must be prefixed by a
-// value that may be assigned to the 'vendor' variable, such as 'mongodb' or
-// 'cloudant' (i.e., 'cloudantInsertOne' and 'mongodbInsertOne')
+// Cloudant databases. These functions must be prefixed by a
+// value that may be assigned to the 'vendor' variable, such as
+// 'cloudant' (i.e., 'cloudantInsertOne')
 
 var insertOne = {};
 var getAll = {};
