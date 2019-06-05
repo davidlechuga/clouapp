@@ -1,6 +1,6 @@
 ---
 applications:
- - name: kodemia-cloudapp
-   random-route: true
+ - name: kca-south
+   random-route: false
    memory: 128M
 

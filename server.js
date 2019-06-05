@@ -52,7 +52,7 @@ getAll.cloudant = function(response) {
 /* Endpoint to greet and add a new visitor to database.
 * Send a POST request to localhost:3000/api/visitors with body
 * {
-*   "name": "Bob"
+*   "name": "Carlos"
 * }
 */
 app.post("/api/visitors", function (request, response) {
@@ -74,7 +74,7 @@ app.post("/api/visitors", function (request, response) {
  * </code>
  *
  * Response:
- * [ "Bob", "Jane" ]
+ * [ "Leo", "Charles" ]
  * @return An array of all the visitor names
  */
 app.get("/api/visitors", function (request, response) {
