@@ -3,10 +3,6 @@ Esta aplicación muestra hecha en Node.js nos muestra el flujo para trabajar con
 
 La app de Node.js utiliza el [Framework Express](https://expressjs.com) y el servicio de [Cloudant noSQL DB](https://console.bluemix.net/catalog/services/cloudant-nosql-db) Para agregar datos y luego devolverlos a la UI. Para mas información revisa la [libreria de Cloudant para Node.js](https://www.npmjs.com/package/cloudant).
 
-<p align="center">
-  <img src="./assets/img/kode-Clouapp.png" width="300" alt="Aplicación ejemplo funcionando.">
-</p>
-
 ## Antes de comenzar
 
 Asegurate de tener el [CLI de IBM cloud](https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli),
