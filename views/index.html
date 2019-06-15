@@ -27,13 +27,14 @@
         $( document ).ready(function() {
             $.i18n().load( {
                 en: {
-                    "welcome": "Bienvenido a KODEMIA.",
+                    "welcome": "Bienvenido a Kodemia",
                     "name": "name",
                     "what_is_your_name": "Cual es tu nombre?",
                     "hello": "Hello $1",
                     "added_to_database": "Hola $1, Te he agregado a la base de datos!",
                     "database_contents": "Contenido de la base de datos: "
                 },
+
             } );
             $('body').i18n();
             $('#user_name').attr("placeholder", $.i18n('name') );
