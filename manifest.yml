@@ -1,6 +1,6 @@
 ---
 applications:
- - name: kca-south
+ - name: Alemania
    random-route: false
    memory: 128M
 
